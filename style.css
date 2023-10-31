@@ -1,0 +1,124 @@
+header nav {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 0;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px;
+    list-style: none;
+    background-color: rgb(28, 62, 94); 
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    text-shadow: 2px 2px 4px black ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.news ul {
+    text-align: left;
+}
+ul {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px;
+    list-style: none;
+    background-color: rgb(28, 62, 94); 
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    text-shadow: 2px 2px 4px black ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.main {
+    background-image: url(bg3cast.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+h1, p {
+    padding-left: 30px; 
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    text-shadow: 2px 2px 4px black ;
+    margin: 0;
+}
+h2 {
+    font-family: 'Inknut Antiqua', serif;
+    color: gold;
+    text-shadow: 2px 2px 4px black ;
+}
+.updates {
+    display: flex;
+}
+.info {
+    text-align: left;
+    background-color: rgb(26, 56, 90);
+}
+.info p {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.news {
+    text-align: center;
+    background-color: rgb(28, 62, 94); 
+}
+.party {
+    background-image: url(karlach.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(20, 47, 77)
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 21, 38);
+    background-image: url(larian.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+button {
+    font-family: 'Inknut Antiqua', serif;
+    background-color: rgb(163, 47, 22);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black ;
+    margin-right: 10px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.b1 {
+    margin-top: 25px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+.IG, .DC {
+    height: 50px;
+    width: 75px;
+}
+.X {
+    height: 45px;
+    width: 50px;
+}
